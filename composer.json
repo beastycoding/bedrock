@@ -66,6 +66,7 @@
         "wordpress-install-dir": "web/wp"
     },
     "scripts": {
+        "phpcs": "phpcs --standard=phpcs.xml",
         "test": [
             "phpcs"
         ]
