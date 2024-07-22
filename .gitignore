@@ -30,3 +30,6 @@ wp-cli.local.yml
 .idea/
 .fleet/
 .vscode/
+
+# Dotfiles
+.php-cs-fixer.cache
