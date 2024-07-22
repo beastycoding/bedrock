@@ -1,5 +1,5 @@
 {
-  "baseBranches": ["master"],
+  "baseBranches": ["develop"],
   "commitMessageAction": "⬆️ Bump",
   "commitMessageTopic": "{{depName}}",
   "extends": ["config:base", "schedule:weekly"],
@@ -13,5 +13,5 @@
       "schedule": ["at any time"]
     }
   ],
-  "timezone": "America/Chicago"
+  "timezone": "Europe/Berlin"
 }
