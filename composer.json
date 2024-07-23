@@ -30,6 +30,11 @@
     "repositories": [
         {
             "type": "composer",
+            "url": "https://beastycoding-bedrock.repo.repman.io",
+            "only": ["beastycoding/bedrock-*"]
+        },
+        {
+            "type": "composer",
             "url": "https://wpackagist.org",
             "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
         }
