@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name:  Bedrock Autoloader
  * Plugin URI:   https://github.com/roots/bedrock-autoloader
@@ -6,7 +7,7 @@
  * Version:      1.0.3
  * Author:       Roots
  * Author URI:   https://roots.io/
- * License:      MIT License
+ * License:      MIT License.
  */
 
 namespace Roots\Bedrock;
