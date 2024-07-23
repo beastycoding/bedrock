@@ -138,10 +138,37 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
     $_SERVER['HTTPS'] = 'on';
 }
 
+/*
+ * Load environment-specific configuration file.
+ *
+ * Constructs the path to the environment-specific configuration file
+ * based on the current environment defined by the `WP_ENV` constant.
+ * If the configuration file exists, it is included.
+ *
+ * Example:
+ * For `WP_ENV` set to 'development', this will load:
+ * `<bedrock_root>/config/environments/development.php`
+ */
 $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 
 if (file_exists($env_config)) {
     require_once $env_config;
+}
+
+/*
+ * Load global configuration file.
+ *
+ * Constructs the path to the global configuration file which is common
+ * to all environments. If the global configuration file exists, it is included.
+ *
+ * Example:
+ * This will load:
+ * `<bedrock_root>/config/environments/_global.php`
+ */
+$env_config_global = __DIR__ . '/environments/_global.php';
+
+if (file_exists($env_config_global)) {
+    require_once $env_config_global;
 }
 
 Config::apply();
