@@ -30,7 +30,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://beastycoding-bedrock.repo.repman.io",
+            "url": "https://beastycoding.repo.repman.io",
             "only": ["beastycoding/bedrock-*"]
         },
         {
