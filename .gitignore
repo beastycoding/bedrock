@@ -21,6 +21,7 @@ web/.htaccess
 !.env.example
 
 # Composer
+auth.json
 /vendor
 
 # WP-CLI
