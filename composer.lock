@@ -4,133 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32d2fdae279047649573140e63227dc1",
+    "content-hash": "697fb09f1a7398b2d7dc1c7ea53e2d2c",
     "packages": [
-        {
-            "name": "beastycoding/bedrock-plugin-disabler",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:beastycoding/bedrock-plugin-disabler.git",
-                "reference": "63c2b29e166d43bf23d74a3018313a972d3e7e94"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/beastycoding/bedrock-plugin-disabler/zipball/63c2b29e166d43bf23d74a3018313a972d3e7e94",
-                "reference": "63c2b29e166d43bf23d74a3018313a972d3e7e94",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://beastycoding.repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "composer/installers": "^2.3",
-                "php": ">=8.0"
-            },
-            "require-dev": {
-                "codeception/codeception": "^5.1",
-                "friendsofphp/php-cs-fixer": "^3.59",
-                "phpunit/phpunit": "^11.2",
-                "pyrech/composer-changelogs": "^2.1",
-                "roave/security-advisories": "dev-latest",
-                "squizlabs/php_codesniffer": "^3.10"
-            },
-            "type": "wordpress-muplugin",
-            "autoload": {
-                "psr-4": {
-                    "BeastyCoding\\Bedrock\\PluginDisabler\\": "src/"
-                }
-            },
-            "notification-url": "https://beastycoding.repo.repman.io/downloads",
-            "scripts": {
-                "phpcs": [
-                    "phpcs --standard=phpcs.xml"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Benjamin Braun",
-                    "email": "beastycoding@outlook.com"
-                }
-            ],
-            "description": "Use PHP constants to disable specific plugins in non-production environments.",
-            "keywords": [
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/beastycoding/bedrock-plugin-disabler/tree/v1.0.0",
-                "issues": "https://github.com/beastycoding/bedrock-plugin-disabler/issues"
-            },
-            "time": "2024-07-21T17:35:29+00:00"
-        },
-        {
-            "name": "beastycoding/bedrock-stage-switcher",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:beastycoding/bedrock-stage-switcher.git",
-                "reference": "14918101378b6d280a2ac9a695b2f32a5b1d81b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/beastycoding/bedrock-stage-switcher/zipball/14918101378b6d280a2ac9a695b2f32a5b1d81b4",
-                "reference": "14918101378b6d280a2ac9a695b2f32a5b1d81b4",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://beastycoding.repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "composer/installers": "^2.3",
-                "php": ">=8.0"
-            },
-            "require-dev": {
-                "codeception/codeception": "^5.1",
-                "friendsofphp/php-cs-fixer": "^3.59",
-                "phpunit/phpunit": "^11.2",
-                "pyrech/composer-changelogs": "^2.1",
-                "squizlabs/php_codesniffer": "^3.10"
-            },
-            "type": "wordpress-muplugin",
-            "autoload": {
-                "psr-4": {
-                    "BeastyCoding\\Bedrock\\StageSwitcher\\": "src/"
-                }
-            },
-            "notification-url": "https://beastycoding.repo.repman.io/downloads",
-            "scripts": {
-                "phpcs": [
-                    "phpcs --standard=phpcs.xml"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Benjamin Braun",
-                    "email": "beastycoding@outlook.com"
-                }
-            ],
-            "description": "A WordPress plugin that provides the ability to switch between various environments from the admin bar.",
-            "keywords": [
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/beastycoding/bedrock-stage-switcher/tree/v1.0.0",
-                "issues": "https://github.com/beastycoding/bedrock-stage-switcher/issues"
-            },
-            "time": "2024-07-21T09:35:30+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v2.3.0",
@@ -1655,16 +1530,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.61.1",
+            "version": "v3.62.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "94a87189f55814e6cabca2d9a33b06de384a2ab8"
+                "reference": "627692f794d35c43483f34b01d94740df2a73507"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/94a87189f55814e6cabca2d9a33b06de384a2ab8",
-                "reference": "94a87189f55814e6cabca2d9a33b06de384a2ab8",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/627692f794d35c43483f34b01d94740df2a73507",
+                "reference": "627692f794d35c43483f34b01d94740df2a73507",
                 "shasum": ""
             },
             "require": {
@@ -1746,7 +1621,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.61.1"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.62.0"
             },
             "funding": [
                 {
@@ -1754,7 +1629,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-31T14:33:15+00:00"
+            "time": "2024-08-07T17:03:09+00:00"
         },
         {
             "name": "psr/container",
